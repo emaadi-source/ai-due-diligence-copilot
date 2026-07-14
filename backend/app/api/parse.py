@@ -1,5 +1,5 @@
 from pathlib import Path
-
+from app.rag.chunker import chunk_text
 from fastapi import APIRouter, HTTPException
 
 from app.rag.parser import extract_text_from_pdf
@@ -25,10 +25,12 @@ def parse_latest_pdf():
     result = extract_text_from_pdf(str(latest_pdf))
 
     cleaned_text = clean_text(result["text"])
+    chunks = chunk_text(cleaned_text)
 
     return {
-        "filename": latest_pdf.name,
-        "pages": result["pages"],
-        "characters": len(cleaned_text),
-        "preview": cleaned_text[:500]
-    }
+    "filename": latest_pdf.name,
+    "pages": result["pages"],
+    "characters": len(cleaned_text),
+    "chunks": len(chunks),
+    "first_chunk": chunks[0],
+}
