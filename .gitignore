@@ -9,6 +9,8 @@ __pycache__/
 *.so
 *.egg-info/
 
+backend/uploads/
+
 # Environment Variables
 .env
 
