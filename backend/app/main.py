@@ -1,11 +1,10 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+from app.api.health import router as health_router
 
+app = FastAPI(
+    title="AI Due Diligence Copilot",
+    version="1.0.0"
+)
 
-@app.get("/")
-def root():
-    return {
-        "project": "AI Due Diligence Copilot",
-        "status": "running"
-    }
+app.include_router(health_router)
