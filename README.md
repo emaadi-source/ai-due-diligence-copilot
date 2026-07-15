@@ -247,45 +247,6 @@ Relevant chunks are retrieved using vector similarity.
 
 The retrieved context is sent to the local LLM which generates the final response.
 
----
-
-# 📸 Screenshots
-
-## Home
-
-_Add screenshot here_
-
----
-
-## Upload Document
-
-_Add screenshot here_
-
----
-
-## Document Summary
-
-_Add screenshot here_
-
----
-
-## AI Chat
-
-_Add screenshot here_
-
----
-
-# 🔮 Future Improvements
-
-- Drag & Drop Upload
-- Multiple Document Support
-- Chat History Persistence
-- Authentication
-- Export Chat
-- Highlight Source Pages
-- OCR for Scanned PDFs
-- Streaming AI Responses
-- Dark Mode
 
 ---
 
