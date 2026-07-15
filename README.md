@@ -3,6 +3,11 @@
 > An AI-powered document analysis application that allows users to upload PDF documents, automatically index their content using Retrieval-Augmented Generation (RAG), and interact with them through a natural language chat interface.
 
 ---
+# 🎥 Walkthrough
+
+https://www.loom.com/share/22627e99c60841efb74e4aa8aef47f08
+
+---
 
 ## 🚀 Overview
 
