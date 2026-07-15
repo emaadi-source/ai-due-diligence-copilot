@@ -2,6 +2,8 @@
 
 > An AI-powered document analysis application that allows users to upload PDF documents, automatically index their content using Retrieval-Augmented Generation (RAG), and interact with them through a natural language chat interface.
 
+<img width="720" height="1200" alt="WhatsApp Image 2026-07-15 at 11 19 50 PM" src="https://github.com/user-attachments/assets/e7688d7e-754b-440c-a113-2bc851647f14" />
+
 ---
 # 🎥 Walkthrough
 
