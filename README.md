@@ -190,6 +190,22 @@ npm install
 
 npm run dev
 ```
+---
+
+## CAUTION 
+
+```bash
+Check and run ollama 
+ollama --version
+
+Verify the model exists.
+ollama list
+
+You should see something like
+llama3.2:latest
+```
+
+
 
 ---
 
